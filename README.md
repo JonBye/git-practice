@@ -17,13 +17,13 @@
 </ul>
 <br/>
 
-<h4>4th Once changes added to git change tracker you can commit the change(s) locally<h4>
+<h4>4th Once changes added to git change tracker you can commit the change(s) locally</h4>
 <p>git commit</p>
 
-<h4>5th When ready to commit to master use Push<h4>
+<h4>5th When ready to commit to master use Push</h4>
 <p>git push</p>
 
-<h4>6th To get Latest<h4>
+<h4>6th To get Latest</h4>
 <p>git pull<p>
 
 <h4>How Git Works (excerpt from : https://www.atlassian.com/git)</h4> 
