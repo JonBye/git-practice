@@ -1,7 +1,7 @@
 # git-practice
 <h2>Practicing git commands and flow</h2>
 
-<h3>  How Git Works (excerpt from : https://www.atlassian.com/git)</h3> 
+<h3>How Git Works (excerpt from : https://www.atlassian.com/git)</h3> 
 
 <p>Here is a basic overview of how Git works:</p>
 <ul>  
