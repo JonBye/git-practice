@@ -1,5 +1,5 @@
 # git-practice
-<h2>Practicing git commands and flow</h2>
+<h2>Get Source, make changes and push to main</h2>
 
 <h4>1st you need to install git</h4>
 <a href="https://git-scm.com/download/win">Install Git</a>
@@ -28,14 +28,17 @@
 
 <h4>How Git Works (excerpt from : https://www.atlassian.com/git)</h4> 
 <p>Here is a basic overview of how Git works:</p>
-<ul>  
-  <li>Create a "repository" (project) with a git hosting tool (like Bitbucket)</li>
-  <li>Copy (or clone) the repository to your local machine</li>
-  <li>Add a file to your local repo and "commit" (save) the changes</li>
-  <li>"Push" your changes to your main branch</li>
-  <li>Make a change to your file with a git hosting tool and commit</li>
-  <li>"Pull" the changes to your local machine</li>
-  <li>Create a "branch" (version), make a change, commit the change</li>
-  <li>Open a "pull request" (propose changes to the main branch)</li>
-  <li>"Merge" your branch to the main branch</li>
-</ul>
+
+<h2>Branching and Merging</h2>
+
+<h4>Create a branch</h4>
+<p>git branch BranchName</p>
+
+<h4>Switch to work in new branch</h4>
+<p>git switch BranchName</p>
+
+<h4>When ready to merge to Main branch, Open a pull request</h4>
+<p>git pull-request</p>
+
+<h4>Merge branche into main</h4>
+<p>git merge BranchName Main</p>
