@@ -31,14 +31,13 @@
 
 <h2>Branching and Merging</h2>
 
-<h4>Create a branch</h4>
-<p>git branch BranchName</p>
+<h4>Create a branch, setup remote branch and change tracking</h4>
+<p>git branch BranchName --set-upstream origin UpdateREADME</p>
 
 <h4>Switch to work in new branch</h4>
 <p>git switch BranchName</p>
 
-<h4>When ready to merge to Main branch, Open a pull request</h4>
-<p>git pull-request</p>
-
-<h4>Merge branche into main</h4>
-<p>git merge BranchName Main</p>
+<h4>When ready to merge to Main branch, switch to master branch and merge BranchName</h4>
+<p>git switch master</p>
+<p>git pull</p>
+<p>git merge BranchName</p>
